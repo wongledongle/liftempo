@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B6EAC0942EF07173003763B9 /* liftempoWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6EAC08A2EF0716D003763B9 /* liftempoWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6EAC09B2EF072D5003763B9 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EAC09A2EF072D5003763B9 /* WatchConnectivity.framework */; };
+		B6EAC09D2EF072E0003763B9 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EAC09C2EF072E0003763B9 /* WatchConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		B6EAC0762EF07128003763B9 /* liftempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liftempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EAC08A2EF0716D003763B9 /* liftempoWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "liftempoWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EAC09A2EF072D5003763B9 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		B6EAC09C2EF072E0003763B9 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EAC09B2EF072D5003763B9 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EAC09D2EF072E0003763B9 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +81,7 @@
 			children = (
 				B6EAC0782EF07128003763B9 /* liftempo */,
 				B6EAC08B2EF0716E003763B9 /* liftempoWatch Watch App */,
+				B6EAC0992EF072D4003763B9 /* Frameworks */,
 				B6EAC0772EF07128003763B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +93,15 @@
 				B6EAC08A2EF0716D003763B9 /* liftempoWatch Watch App.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EAC0992EF072D4003763B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6EAC09C2EF072E0003763B9 /* WatchConnectivity.framework */,
+				B6EAC09A2EF072D5003763B9 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
