@@ -12,8 +12,9 @@ import Combine
 class SessionStore: ObservableObject {
     @Published var sessions: [Session] = []
 
-    func addSession(date: Date = Date()) {
-        let newSession = Session(date: date)
+    func addSession(date: Date = Date(), samples: [MotionSample] = []) {
+        let newSession = Session(date: date, samples: samples)
         sessions.insert(newSession, at: 0) // newest first
     }
 }
+

@@ -1,18 +1,14 @@
-//
-//  ContentView.swift
-//  liftempoWatch Watch App
-//
-//  Created by Arthur Wong on 12/15/25.
-//
-
 import SwiftUI
 
 struct WatchContentView: View {
     private let connectivity = WatchConnectivityProvider()
+    private let motionRecorder = MotionRecorder()
+
     @State private var isSetRunning = false
+    @State private var sampleCount = 0
 
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 8) {
             Text("liftempo")
                 .font(.headline)
 
@@ -20,15 +16,24 @@ struct WatchContentView: View {
                 .font(.caption)
                 .foregroundStyle(.secondary)
 
+            Text("Samples: \(sampleCount)")
+                .font(.caption2)
+
             if isSetRunning {
                 Button("End Set") {
                     isSetRunning = false
-                    connectivity.sendSetCompleted()
+                    motionRecorder.stopRecording()
+                    sampleCount = motionRecorder.samples.count
+
+                    // 🔥 send samples to phone
+                    connectivity.sendSetCompleted(samples: motionRecorder.samples)
                 }
                 .buttonStyle(.borderedProminent)
             } else {
                 Button("Start Set") {
+                    sampleCount = 0
                     isSetRunning = true
+                    motionRecorder.startRecording()
                 }
                 .buttonStyle(.bordered)
             }
@@ -40,5 +45,3 @@ struct WatchContentView: View {
 #Preview {
     WatchContentView()
 }
-
-

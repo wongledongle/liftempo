@@ -1,11 +1,3 @@
-//
-//  PhoneConnectivity.swift
-//  liftempo
-//
-//  Created by Arthur Wong on 12/15/25.
-//
-
-
 import Foundation
 import WatchConnectivity
 
@@ -41,12 +33,9 @@ class PhoneConnectivity: NSObject, WCSessionDelegate {
         }
     }
 
-    func sessionDidBecomeInactive(_ session: WCSession) {
-        // Required on iOS but you can leave empty for now
-    }
+    func sessionDidBecomeInactive(_ session: WCSession) { }
 
     func sessionDidDeactivate(_ session: WCSession) {
-        // Required on iOS, reactivate
         WCSession.default.activate()
     }
 
@@ -56,8 +45,40 @@ class PhoneConnectivity: NSObject, WCSessionDelegate {
         guard let event = message["event"] as? String else { return }
 
         if event == "set_completed" {
+            let samples: [MotionSample]
+
+            if let rawSamples = message["samples"] as? [[String: Double]] {
+                let mapped = rawSamples.compactMap { dict -> MotionSample? in
+                    guard
+                        let t  = dict["t"],
+                        let rx = dict["rx"],
+                        let ry = dict["ry"],
+                        let rz = dict["rz"],
+                        let ax = dict["ax"],
+                        let ay = dict["ay"],
+                        let az = dict["az"]
+                    else {
+                        return nil
+                    }
+
+                    return MotionSample(
+                        timestamp: t,
+                        rotX: rx,
+                        rotY: ry,
+                        rotZ: rz,
+                        accX: ax,
+                        accY: ay,
+                        accZ: az
+                    )
+                }
+
+                samples = mapped
+            } else {
+                samples = []
+            }
+
             DispatchQueue.main.async { [weak self] in
-                self?.sessionStore?.addSession()
+                self?.sessionStore?.addSession(samples: samples)
             }
         }
     }

@@ -16,7 +16,7 @@ class WatchConnectivityProvider: NSObject, WCSessionDelegate {
         session.activate()
     }
 
-    func sendSetCompleted() {
+    func sendSetCompleted(samples: [MotionSample]) {
         let session = WCSession.default
 
         guard session.isReachable else {
@@ -24,10 +24,29 @@ class WatchConnectivityProvider: NSObject, WCSessionDelegate {
             return
         }
 
-        print("Watch sending set_completed message to iPhone")
+        // Convert MotionSample to a WCSession-safe payload (no custom types)
+        let mapped: [[String: Double]] = samples.map { sample in
+            return [
+                "t": sample.timestamp,
+                "rx": sample.rotX,
+                "ry": sample.rotY,
+                "rz": sample.rotZ,
+                "ax": sample.accX,
+                "ay": sample.accY,
+                "az": sample.accZ
+            ]
+        }
+
+        let message: [String: Any] = [
+            "event": "set_completed",
+            "timestamp": Date().timeIntervalSince1970,
+            "samples": mapped
+        ]
+
+        print("Watch sending set_completed with \(samples.count) samples")
 
         session.sendMessage(
-            ["event": "set_completed"],
+            message,
             replyHandler: nil,
             errorHandler: { error in
                 print("Error sending message from watch: \(error.localizedDescription)")

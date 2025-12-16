@@ -10,6 +10,7 @@
 		B6EAC0942EF07173003763B9 /* liftempoWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6EAC08A2EF0716D003763B9 /* liftempoWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B6EAC09B2EF072D5003763B9 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EAC09A2EF072D5003763B9 /* WatchConnectivity.framework */; };
 		B6EAC09D2EF072E0003763B9 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EAC09C2EF072E0003763B9 /* WatchConnectivity.framework */; };
+		B6EAC0A72EF0F664003763B9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EAC0A62EF0F664003763B9 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,18 @@
 		B6EAC08A2EF0716D003763B9 /* liftempoWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "liftempoWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EAC09A2EF072D5003763B9 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		B6EAC09C2EF072E0003763B9 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		B6EAC0A62EF0F664003763B9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B6EAC0AD2EF1006C003763B9 /* Exceptions for "liftempoWatch Watch App" folder in "liftempo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MotionSample.swift,
+			);
+			target = B6EAC0752EF07128003763B9 /* liftempo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B6EAC0782EF07128003763B9 /* liftempo */ = {
@@ -51,6 +63,9 @@
 		};
 		B6EAC08B2EF0716E003763B9 /* liftempoWatch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B6EAC0AD2EF1006C003763B9 /* Exceptions for "liftempoWatch Watch App" folder in "liftempo" target */,
+			);
 			path = "liftempoWatch Watch App";
 			sourceTree = "<group>";
 		};
@@ -70,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6EAC09D2EF072E0003763B9 /* WatchConnectivity.framework in Frameworks */,
+				B6EAC0A72EF0F664003763B9 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +114,7 @@
 		B6EAC0992EF072D4003763B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6EAC0A62EF0F664003763B9 /* CoreMotion.framework */,
 				B6EAC09C2EF072E0003763B9 /* WatchConnectivity.framework */,
 				B6EAC09A2EF072D5003763B9 /* WatchConnectivity.framework */,
 			);
@@ -360,6 +377,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 952266AT8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -391,6 +409,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 952266AT8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 952266AT8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = liftempoWatch;
@@ -454,6 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 952266AT8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = liftempoWatch;
