@@ -3,77 +3,46 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var sessionStore: SessionStore
 
-    @State private var isShowingExportSheet = false
-    @State private var exportURL: URL?
-
     var body: some View {
         NavigationStack {
             VStack {
                 if sessionStore.sessions.isEmpty {
-                    Text("No sets yet")
-                        .foregroundStyle(.secondary)
-                        .padding()
+                    ContentUnavailableView(
+                        "No Sets Yet",
+                        systemImage: "waveform.path.ecg",
+                        description: Text("Start a set on Apple Watch. The iPhone app will derive on-device features and show them here.")
+                    )
                 } else {
                     List(sessionStore.sessions) { session in
-                        HStack {
-                            VStack(alignment: .leading) {
-                                Text("Set at \(session.date.formatted(date: .omitted, time: .shortened))")
-                                Text("Samples: \(session.samples.count)")
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
+                        NavigationLink {
+                            SessionDetailView(session: session)
+                        } label: {
+                            HStack {
+                                VStack(alignment: .leading, spacing: 4) {
+                                    Text("Set at \(session.date.formatted(date: .omitted, time: .shortened))")
+                                    Text("\(session.features.sampleCount) samples  •  \(session.features.estimatedHz, specifier: "%.1f") Hz")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                    Text("Accel mean \(session.features.accelerationMagnitudeMean, specifier: "%.4f")  •  Gyro mean \(session.features.rotationMagnitudeMean, specifier: "%.4f")")
+                                        .font(.caption2)
+                                        .foregroundStyle(.secondary)
+                                    Text("Predictions: E \(session.features.predictionSummary.eccentricCount)  C \(session.features.predictionSummary.concentricCount)  U \(session.features.predictionSummary.unknownCount)")
+                                        .font(.caption2)
+                                        .foregroundStyle(.secondary)
+                                }
+                                Spacer()
                             }
-                            Spacer()
                         }
                     }
                 }
 
-                HStack {
-                    // Debug button to add a dummy session
-                    Button("Add dummy session") {
-                        sessionStore.addSession()
-                    }
-                    .buttonStyle(.bordered)
-
-                    // 🔥 Export CSV button
-                    Button("Export CSV") {
-                        exportCSV()
-                    }
-                    .buttonStyle(.borderedProminent)
+                Button("Add dummy session") {
+                    sessionStore.addSession()
                 }
+                .buttonStyle(.bordered)
                 .padding()
             }
             .navigationTitle("Tempo Sets")
-            .sheet(isPresented: $isShowingExportSheet, onDismiss: {
-                exportURL = nil
-            }) {
-                if let exportURL = exportURL {
-                    ActivityView(activityItems: [exportURL])
-                } else {
-                    Text("No file to export")
-                }
-            }
         }
     }
-
-    private func exportCSV() {
-        let csvString = CSVExporter.sessionsToCSV(sessionStore.sessions)
-
-        // Write to a temporary file
-        do {
-            let tempDir = FileManager.default.temporaryDirectory
-            let fileURL = tempDir.appendingPathComponent("liftempo_sessions.csv")
-
-            try csvString.data(using: .utf8)?.write(to: fileURL, options: .atomic)
-
-            exportURL = fileURL
-            isShowingExportSheet = true
-        } catch {
-            print("Failed to write CSV: \(error)")
-        }
-    }
-}
-
-#Preview {
-    ContentView()
-        .environmentObject(SessionStore())
 }

@@ -1,0 +1,256 @@
+{
+  "source": "/Users/arthurwong/DevLocal/liftempo/liftempo/SessionDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Set Data",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Session",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 9
+        }
+      },
+      {
+        "comment": "",
+        "key": "Predictions",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signal Summary",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Feature Windows",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Raw Samples Preview",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "Started",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Samples",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "Estimated Rate",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Classifier",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Avg confidence",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Eccentric",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Concentric",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Unknown",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Accel mean",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Accel std dev",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Accel peak",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gyro mean",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gyro std dev",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gyro peak",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not enough samples to generate windows yet.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Window %lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ span",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Accel mean %@  std %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gyro mean %@  std %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dominant axes: accel %@, gyro %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Vector: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "conf %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "acc (%@, %@, %@)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "gyro (%@, %@, %@)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 80
+        }
+      }
+    ]
+  },
+  "version": 1
+}

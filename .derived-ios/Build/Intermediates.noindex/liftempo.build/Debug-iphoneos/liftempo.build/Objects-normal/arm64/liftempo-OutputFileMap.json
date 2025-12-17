@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempo-primary.dia",
+    "emit-module-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempo-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempo-primary-emit-module.dia",
+    "pch" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempo-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempo-primary.swiftdeps"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/ActivityView.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ActivityView~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/CSVExporter.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/CSVExporter~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/ContentView.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/FeatureExtraction.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/FeatureExtraction~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/Item.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Item~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/PhaseInference.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhaseInference~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/PhoneConnectivity.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/PhoneConnectivity~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/Session.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/Session~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/SessionDetailView.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionDetailView~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/SessionStore.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/SessionStore~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempo/liftempoApp.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/liftempoApp~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempoWatch Watch App/MotionSample.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-iphoneos/liftempo.build/Objects-normal/arm64/MotionSample~partial.swiftmodule"
+  }
+}

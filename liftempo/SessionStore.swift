@@ -17,4 +17,3 @@ class SessionStore: ObservableObject {
         sessions.insert(newSession, at: 0) // newest first
     }
 }
-

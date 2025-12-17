@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'liftempo' in project 'liftempo'
+➜ Explicit dependency on target 'liftempoWatch Watch App' in project 'liftempo'
+Target 'liftempoWatch Watch App' in project 'liftempo' (no dependencies)

@@ -1,0 +1,56 @@
+{
+  "source": "/Users/arthurwong/DevLocal/liftempo/liftempoWatch Watch App/WatchContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "liftempo",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Samples: %lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set in progress",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Set",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Set",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 52
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/arthurwong/DevLocal/liftempo/liftempo/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Tempo Sets",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start a set on Apple Watch. The iPhone app will derive on-device features and show them here.",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Sets Yet",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add dummy session",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set at %@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld samples  •  %.1f Hz",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Accel mean %.4f  •  Gyro mean %.4f",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Predictions: E %lld  C %lld  U %lld",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 29
+        }
+      }
+    ]
+  },
+  "version": 1
+}

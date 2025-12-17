@@ -40,46 +40,50 @@ class PhoneConnectivity: NSObject, WCSessionDelegate {
     }
 
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
-        print("iPhone received message: \(message)")
+        handleIncoming(message: message)
+    }
 
-        guard let event = message["event"] as? String else { return }
+    func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
+        handleIncoming(message: userInfo)
+    }
 
-        if event == "set_completed" {
-            let samples: [MotionSample]
+    private func handleIncoming(message: [String: Any]) {
+        print("iPhone received connectivity payload: \(message.keys)")
 
-            if let rawSamples = message["samples"] as? [[String: Double]] {
-                let mapped = rawSamples.compactMap { dict -> MotionSample? in
-                    guard
-                        let t  = dict["t"],
-                        let rx = dict["rx"],
-                        let ry = dict["ry"],
-                        let rz = dict["rz"],
-                        let ax = dict["ax"],
-                        let ay = dict["ay"],
-                        let az = dict["az"]
-                    else {
-                        return nil
-                    }
+        guard let event = message["event"] as? String, event == "set_completed" else { return }
 
-                    return MotionSample(
-                        timestamp: t,
-                        rotX: rx,
-                        rotY: ry,
-                        rotZ: rz,
-                        accX: ax,
-                        accY: ay,
-                        accZ: az
-                    )
+        let samples: [MotionSample]
+
+        if let rawSamples = message["samples"] as? [[String: Double]] {
+            samples = rawSamples.compactMap { dict -> MotionSample? in
+                guard
+                    let t = dict["t"],
+                    let rx = dict["rx"],
+                    let ry = dict["ry"],
+                    let rz = dict["rz"],
+                    let ax = dict["ax"],
+                    let ay = dict["ay"],
+                    let az = dict["az"]
+                else {
+                    return nil
                 }
 
-                samples = mapped
-            } else {
-                samples = []
+                return MotionSample(
+                    timestamp: t,
+                    rotX: rx,
+                    rotY: ry,
+                    rotZ: rz,
+                    accX: ax,
+                    accY: ay,
+                    accZ: az
+                )
             }
+        } else {
+            samples = []
+        }
 
-            DispatchQueue.main.async { [weak self] in
-                self?.sessionStore?.addSession(samples: samples)
-            }
+        DispatchQueue.main.async { [weak self] in
+            self?.sessionStore?.addSession(samples: samples)
         }
     }
 }

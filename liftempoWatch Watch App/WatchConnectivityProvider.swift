@@ -2,6 +2,13 @@ import Foundation
 import WatchConnectivity
 
 class WatchConnectivityProvider: NSObject, WCSessionDelegate {
+    enum SendResult {
+        case sentImmediate
+        case queued
+        case noCompanionApp
+        case notActivated
+        case unsupported
+    }
 
     override init() {
         super.init()
@@ -16,17 +23,22 @@ class WatchConnectivityProvider: NSObject, WCSessionDelegate {
         session.activate()
     }
 
-    func sendSetCompleted(samples: [MotionSample]) {
-        let session = WCSession.default
-
-        guard session.isReachable else {
-            print("iPhone not reachable from watch")
-            return
+    func sendSetCompleted(samples: [MotionSample]) -> SendResult {
+        guard WCSession.isSupported() else {
+            return .unsupported
         }
 
-        // Convert MotionSample to a WCSession-safe payload (no custom types)
+        let session = WCSession.default
+        guard session.activationState == .activated else {
+            return .notActivated
+        }
+
+        guard session.isCompanionAppInstalled else {
+            return .noCompanionApp
+        }
+
         let mapped: [[String: Double]] = samples.map { sample in
-            return [
+            [
                 "t": sample.timestamp,
                 "rx": sample.rotX,
                 "ry": sample.rotY,
@@ -43,15 +55,19 @@ class WatchConnectivityProvider: NSObject, WCSessionDelegate {
             "samples": mapped
         ]
 
-        print("Watch sending set_completed with \(samples.count) samples")
+        if session.isReachable {
+            session.sendMessage(
+                message,
+                replyHandler: nil,
+                errorHandler: { error in
+                    print("Error sending immediate message from watch: \(error.localizedDescription)")
+                }
+            )
+            return .sentImmediate
+        }
 
-        session.sendMessage(
-            message,
-            replyHandler: nil,
-            errorHandler: { error in
-                print("Error sending message from watch: \(error.localizedDescription)")
-            }
-        )
+        session.transferUserInfo(message)
+        return .queued
     }
 
     // MARK: - WCSessionDelegate

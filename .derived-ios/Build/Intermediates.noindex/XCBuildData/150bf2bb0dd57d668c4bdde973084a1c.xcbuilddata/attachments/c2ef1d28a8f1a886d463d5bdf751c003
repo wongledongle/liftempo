@@ -1,0 +1,69 @@
+{
+  "" : {
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatch Watch App-primary.dia",
+    "emit-module-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatch Watch App-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatch Watch App-primary-emit-module.dia",
+    "pch" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatch Watch App-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatch Watch App-primary.swiftdeps"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempoWatch Watch App/MotionRecorder.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionRecorder~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempoWatch Watch App/MotionSample.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/MotionSample~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempoWatch Watch App/WatchConnectivityProvider.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchConnectivityProvider~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempoWatch Watch App/WatchContentView.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/WatchContentView~partial.swiftmodule"
+  },
+  "/Users/arthurwong/DevLocal/liftempo/liftempoWatch Watch App/liftempoWatchApp.swift" : {
+    "const-values" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp.swiftconstvalues",
+    "dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp.d",
+    "diagnostics" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp.dia",
+    "index-unit-output-path" : "/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp.o",
+    "llvm-bc" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp.bc",
+    "object" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp.o",
+    "swift-dependencies" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp.swiftdeps",
+    "swiftmodule" : "/Users/arthurwong/DevLocal/liftempo/.derived-ios/Build/Intermediates.noindex/liftempo.build/Debug-watchos/liftempoWatch Watch App.build/Objects-normal/arm64/liftempoWatchApp~partial.swiftmodule"
+  }
+}
